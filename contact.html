@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact page for Jasmi's responsive redesign concept."
+    />
+    <title> Jasmi’s | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      
+      <nav class="navbar" aria-label="Main navigation">
+       <div class="brand">
+  <img src="images/jasmis final logo.png" alt="Jasmi's Logo" class="site-logo">
+  <h1>Jasmi's</h1>
+</div>
+        <button
+          class="nav-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="branches.html">Branches</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="section">
+        <div class="section-title">
+          <p class="eyebrow">Get in touch</p>
+          <h1>We would love to hear from you.</h1>
+          <p>
+            Have a question, suggestion or feedback about your experience? Send us a message and our team will be happy to help.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            
+            <h3>Call center</h3>
+            <p>17111100</p>
+          </article>
+          <article class="card">
+           
+            <h3>Email</h3>
+            <p>info@jasmis.com</p>
+          </article>
+          <article class="card">
+        
+            <h3>Location</h3>
+            <p>Branches around Bahrain</p>
+          </article>
+        </div>
+      </section>
+      <section class="section">
+        <form id="contactForm" class="form-card">
+          <div class="form-grid">
+            <div>
+              <label for="name">Full name</label
+              ><input id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div>
+              <label for="email">Email address</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="name@example.com"
+              />
+            </div>
+            <div>
+              <label for="topic">Topic</label
+              ><select id="topic" name="topic">
+                <option>General enquiry</option>
+                <option>Branch feedback</option>
+                <option>Website feedback</option>
+                <option>Birthday parties</option>
+              </select>
+            </div>
+            <div>
+              <label for="phone">Phone number</label
+              ><input
+                id="phone"
+                name="phone"
+                type="tel"
+                placeholder="+973..."
+              />
+            </div>
+            <div class="full">
+              <label for="message">Message</label
+              ><textarea
+                id="message"
+                name="message"
+                required
+                placeholder="Write your message here..."
+              ></textarea>
+            </div>
+            <div class="full">
+              <button class="btn btn-primary" type="submit">
+                Send Message
+              </button>
+            </div>
+          </div>
+          <p id="successMessage" class="success">
+            Thank you. Your message has been sent!
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h2>Jasmi's</h2>
+          <p class="small">
+             official Jasmi's website.
+          </p>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <p>
+            <a href="index.html">Home</a><br /><a href="menu.html">Menu</a
+            ><br /><a href="branches.html">Branches</a>
+          </p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Hotline: 17111100<br />Email: info@jasmis.com</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
